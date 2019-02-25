@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: "#eee",
-    opacity: 0.93
+    opacity: 0.95
   },
   backgroundImage: {
     width: "100%",

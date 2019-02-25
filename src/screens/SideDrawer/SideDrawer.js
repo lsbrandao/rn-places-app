@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
-import { View, Text, Dimensions, StyleSheet } from 'react-native';
+import { View, Text, Dimensions, StyleSheet, TouchableOpacity } from 'react-native';
 
 class SideDrawer extends Component {
   render() {
     return (
       <View style={[styles.container, {width: Dimensions.get('window').width * 0.8}]}>
-        <Text>SideDrawer</Text>
+        <TouchableOpacity>
+          <View>
+            Side Drawer
+          </View>
+        </TouchableOpacity>
       </View>
     );
   }
