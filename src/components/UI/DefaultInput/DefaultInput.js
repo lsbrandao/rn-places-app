@@ -16,7 +16,8 @@ const styles = StyleSheet.create({
     borderColor: "#eee",
     color: "black",
     padding: 5,
-    margin: 8
+    marginTop: 8,
+    marginBottom: 8
   }
 });
 
